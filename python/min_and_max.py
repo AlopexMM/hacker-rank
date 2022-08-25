@@ -1,7 +1,18 @@
 import numpy
 
 def main():
-    pass
+    n,m = map(int,input().split(" "))
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int,input().split(" "))))
+    
+    array = numpy.array(arr)
+
+    min = numpy.min(array,axis=1)
+
+    print(numpy.max(min))
 
 if __name__ == "__main__":
     main()
