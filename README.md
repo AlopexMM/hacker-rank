@@ -2,7 +2,7 @@
 
 [Profile](https://www.hackerrank.com/AlopexMM?hr_r=1)
 
-I'm doing the Python, Bash and C++ practices
+I'm doing the Python, Bash and Kotlin practices
 
 ## Python
 
@@ -15,6 +15,6 @@ Finish:
 - Math
 - Itertools
 
-## C++
-
 ## Bash
+
+## Project Euler

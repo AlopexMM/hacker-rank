@@ -1,24 +1,28 @@
 import numpy
 
+
 def main():
-    n,m = map(int,input().split(" "))
+    n, m = map(int, input().split(" "))
 
     arr = []
 
     for _ in range(n):
-        arr.append(list(map(int,input().split(" "))))
-    
+        arr.append(list(map(int, input().split(" "))))
+
     array = numpy.array(arr)
 
-    min = numpy.min(array,axis=1)
+    min = numpy.min(array, axis=1)
 
     print(numpy.max(min))
+
 
 if __name__ == "__main__":
     main()
 
 import pytest
+
 monkeypatch = pytest.MonkeyPatch()
+
 
 def test_cero(capsys):
     inputs = iter([

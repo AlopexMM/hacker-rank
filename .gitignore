@@ -2,4 +2,8 @@
 __pycache__/
 venv/
 .pytest_cache
+<<<<<<< HEAD
 *.jar
+=======
+*.xml
+>>>>>>> ee811fc78edb09ce1d9b2d8f0806f8ec3bddc197
